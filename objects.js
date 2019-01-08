@@ -2,9 +2,8 @@ const playlist = {
   artistnames: 'song titles'
 };
 
-function updatePlaylist {
-   
-  
+function updatePlaylist() {
+   playlist.artistnames= 'song titles'
+  return updatePlaylist()
 }
 
-playlist[artistnames]= 'song titles'
