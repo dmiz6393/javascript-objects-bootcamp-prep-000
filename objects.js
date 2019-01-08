@@ -1,9 +1,9 @@
 const playlist = {
-  artistnames: 'song titles'
+  artistName: 'songTitle'
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
    playlist[artistName]= 'songTitle'
-  return updatePlaylist(playlist, artistName, songTitle)
+  return updatePlaylist
 }
 
