@@ -8,6 +8,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist,artistName) {
+  let playlist=Slowdive
+  let artistName= "Phil Ochs"
   delete Slowdive["Phil Ochs"];
   return Slowdive;
 }
