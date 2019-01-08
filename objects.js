@@ -9,5 +9,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
 function removeFromPlaylist(playlist,artistName) {
   delete Slowdive["Phil Ochs"];
-  return playlist;
+  return Slowdive;
 }
